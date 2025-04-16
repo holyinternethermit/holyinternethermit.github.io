@@ -5,51 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Internet Hermit</title>
   <style>
+    :root {
+      color-scheme: dark;
+    }
+
     body {
       font-family: 'Courier New', monospace;
-      background-color: #f4f4f4;
-      color: #222;
+      background-color: #0d1117;
+      color: #c9d1d9;
       margin: 0;
       padding: 2rem;
       text-align: center;
     }
-    h1 {
-      margin-bottom: 0.5rem;
+
+    h1, h2 {
+      color: #ff8558;
     }
-    .user-agent {
-      font-size: 0.9rem;
-      color: #666;
-      margin-bottom: 2rem;
-    }
+
     .intro {
       max-width: 600px;
       margin: 0 auto 2rem auto;
       font-size: 1.1rem;
       line-height: 1.6;
     }
-    h2 {
-      margin-top: 3rem;
-    }
+
     a {
       display: block;
       margin: 0.5rem 0;
-      color: #0077cc;
+      color: #58a6ff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     img {
       margin-top: 2rem;
       max-width: 100%;
       height: auto;
       border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     }
   </style>
 </head>
 <body>
   <h1>Welcome to the Internet Hermit</h1>
-  <div class="user-agent" id="userAgent">Loading user agent...</div>
 
   <div class="intro">
     The Internet Hermit roams the digital landscape in solitude.<br>
@@ -57,14 +58,10 @@
     With an unbothered shrug, he leaves you the good stuff and disappears.
   </div>
 
-  <h2>Save your money</h2>
+  <h2>Save your Money with these links[makes me some money asw :)]</h2>
   <a href="https://www.google.com" target="_blank">google.com</a>
   <a href="https://www.bing.com" target="_blank">bing.com</a>
 
   <img src="hermit.jpg" alt="Hermit character">
-
-  <script>
-    document.getElementById("userAgent").textContent = navigator.userAgent;
-  </script>
 </body>
 </html>
